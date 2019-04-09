@@ -1,0 +1,18 @@
+{
+  "name": "mysqltoobject",
+  "version": "1.0.0",
+  "description": "App en ExpressJS que recibe un archivo sql (create) y retorna cada entidad como objeto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christian Ramirez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "js-beautify": "^1.8.9",
+    "multer": "^1.4.1",
+    "request": "^2.88.0",
+    "zip-local": "^0.3.4"
+  }
+}

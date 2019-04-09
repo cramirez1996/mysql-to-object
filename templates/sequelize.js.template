@@ -1,0 +1,21 @@
+module.exports = {
+  attributes: MODEL_ATTRIBUTES,
+  associations: function() {
+    MODEL_ASSOCIATIONS
+  },
+  defaultScope: function() {
+    return {
+      include: [
+
+      ]
+    }
+  },
+  options: {
+    freezeTableName: false,
+    tableName: MODEL_TABLENAME,
+    classMethods: {},
+    instanceMethods: {},
+    hooks: {},
+    timestamps: MODEL_TIMESTAMPS
+  }
+};
